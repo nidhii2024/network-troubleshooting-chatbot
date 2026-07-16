@@ -1,0 +1,19 @@
+# Environment variables
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environments
+venv/
+.venv/
+
+# Node modules
+node_modules/
+
+# Chroma vector database
+chroma_db/
+
+# React build files
+frontend/dist/

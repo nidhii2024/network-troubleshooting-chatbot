@@ -1,0 +1,122 @@
+[
+  {
+    "question": "A PC cannot ping its default gateway.",
+    "answer": "Verify the IP address, subnet mask, default gateway configuration, VLAN assignment, switch port status, and ensure the gateway interface is up."
+  },
+  {
+    "question": "The default gateway is reachable, but external websites cannot be accessed.",
+    "answer": "Check DNS configuration, NAT configuration, default route, ISP connectivity, and firewall ACLs."
+  },
+  {
+    "question": "Users receive APIPA addresses (169.254.x.x).",
+    "answer": "Verify the DHCP server is running, DHCP relay (ip helper-address), VLAN configuration, and interface connectivity."
+  },
+  {
+    "question": "OSPF neighbors remain stuck in INIT state.",
+    "answer": "Verify hello/dead timers, authentication, subnet masks, MTU, network type, and ensure Hello packets are received."
+  },
+  {
+    "question": "OSPF neighbors remain in EXSTART state.",
+    "answer": "Check MTU mismatches, router IDs, interface types, and duplex settings."
+  },
+  {
+    "question": "Hosts in different VLANs cannot communicate.",
+    "answer": "Verify inter-VLAN routing, trunk configuration, allowed VLANs, and default gateway settings."
+  },
+  {
+    "question": "A trunk port is not forwarding traffic.",
+    "answer": "Verify trunk encapsulation, native VLAN, allowed VLAN list, and switchport mode."
+  },
+  {
+    "question": "A switch interface shows many CRC errors.",
+    "answer": "Inspect the Ethernet cable, duplex mismatch, speed mismatch, damaged connectors, and hardware faults."
+  },
+  {
+    "question": "Users cannot obtain DNS resolution.",
+    "answer": "Verify DNS server IP, reachability, firewall rules, and DNS service status."
+  },
+  {
+    "question": "The internet is reachable by IP address but not by hostname.",
+    "answer": "This usually indicates a DNS issue. Verify DNS server configuration and name resolution."
+  },
+  {
+    "question": "NAT is not translating private addresses.",
+    "answer": "Verify inside/outside interfaces, NAT ACLs, overload configuration, and routing."
+  },
+  {
+    "question": "SSH access to a router fails.",
+    "answer": "Verify VTY configuration, transport input ssh, local user accounts, AAA configuration, and SSH version."
+  },
+  {
+    "question": "Telnet is refused.",
+    "answer": "Check VTY line configuration, ACLs, and transport input settings."
+  },
+  {
+    "question": "An interface is administratively down.",
+    "answer": "Enable the interface using the 'no shutdown' command."
+  },
+  {
+    "question": "The interface is up but the line protocol is down.",
+    "answer": "Verify Layer 2 connectivity, encapsulation, keepalives, and cable connections."
+  },
+  {
+    "question": "Ping succeeds but HTTP fails.",
+    "answer": "Verify web server status, firewall rules, ACLs, TCP ports, and application availability."
+  },
+  {
+    "question": "High packet loss occurs intermittently.",
+    "answer": "Check interface utilization, congestion, duplex mismatch, hardware errors, and QoS policies."
+  },
+  {
+    "question": "A route is missing from the routing table.",
+    "answer": "Verify routing protocol neighbors, network statements, administrative distance, and route filtering."
+  },
+  {
+    "question": "Static routes are not working.",
+    "answer": "Verify next-hop reachability, destination prefix, subnet mask, and interface status."
+  },
+  {
+    "question": "Devices in the same subnet cannot communicate.",
+    "answer": "Verify subnet masks, VLAN membership, switch port configuration, and duplicate IP addresses."
+  },
+  {
+    "question": "Users experience slow network performance.",
+    "answer": "Check interface utilization, CPU usage, memory utilization, bandwidth saturation, and latency."
+  },
+  {
+    "question": "ACL blocks legitimate traffic.",
+    "answer": "Verify ACL order, implicit deny rule, interface direction, and matching conditions."
+  },
+  {
+    "question": "STP blocks an unexpected port.",
+    "answer": "Check bridge priorities, port costs, root bridge election, and topology changes."
+  },
+  {
+    "question": "IPv6 connectivity is unavailable.",
+    "answer": "Verify IPv6 addressing, routing, neighbor discovery, and interface configuration."
+  },
+  {
+    "question": "BGP neighbors do not establish.",
+    "answer": "Verify remote AS, source IP, update-source configuration, authentication, and TCP port 179 connectivity."
+  },
+  {
+    "question": "DHCP relay is not forwarding requests.",
+    "answer": "Verify ip helper-address configuration, VLAN interfaces, routing, and firewall rules."
+  },
+  {
+    "question": "Duplicate IP address detected.",
+    "answer": "Identify conflicting devices using ARP tables, DHCP leases, and static IP assignments."
+  },
+  {
+    "question": "An interface frequently flaps.",
+    "answer": "Check cables, power supply, SFP modules, hardware faults, and duplex mismatches."
+  },
+  {
+    "question": "Users cannot access a server after ACL changes.",
+    "answer": "Review recently modified ACL entries, verify permit statements, and inspect logs."
+  },
+  {
+    "question": "A network engineer begins troubleshooting a connectivity issue.",
+    "answer": "Start from the physical layer, verify interface status, identify the affected OSI layer, isolate the fault, test connectivity with ping and traceroute, and validate routing and DNS."
+  }
+]
