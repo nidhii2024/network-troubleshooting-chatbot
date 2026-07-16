@@ -497,8 +497,69 @@ Advantages
 
 ---
 
-# Resume Description (ATS-Friendly)
+Here's a professional **Tech Stack** table that you can use in your report, README, GitHub, or interview presentations.
 
-**NetworkGPT – AI-Powered Network Troubleshooting Assistant**
+| **Category**                | **Technology/Tool**                | **Purpose in the Project**                                 |
+| --------------------------- | ---------------------------------- | ---------------------------------------------------------- |
+| **Frontend**                | React.js                           | Built the interactive ChatGPT-like user interface          |
+|                             | Vite                               | Fast development server and React build tool               |
+|                             | HTML5                              | Structure of the web application                           |
+|                             | CSS3                               | Custom responsive styling and dark theme UI                |
+|                             | JavaScript (ES6+)                  | Frontend logic and interactivity                           |
+|                             | Axios / Fetch API                  | Communication between frontend and backend APIs            |
+|                             | React Markdown                     | Render AI responses with Markdown formatting               |
+|                             | React Syntax Highlighter           | Display syntax-highlighted code blocks                     |
+| **Backend**                 | Python                             | Core programming language                                  |
+|                             | FastAPI                            | REST API framework for handling chat requests              |
+|                             | Uvicorn                            | ASGI server to run the FastAPI application                 |
+| **Generative AI**           | LangChain                          | Built the Retrieval-Augmented Generation (RAG) pipeline    |
+|                             | Ollama                             | Local LLM runtime for running Llama models                 |
+|                             | Llama 3.2                          | Large Language Model used to generate responses            |
+| **Embeddings**              | Hugging Face Sentence Transformers | Converts text into vector embeddings                       |
+|                             | all-MiniLM-L6-v2                   | Embedding model for semantic similarity search             |
+| **Vector Database**         | ChromaDB                           | Stores document embeddings and performs semantic retrieval |
+| **Knowledge Base**          | Cisco Documentation (PDFs)         | Primary source of networking information                   |
+|                             | Custom Q&A Dataset (JSON)          | Additional networking knowledge for retrieval              |
+| **Document Processing**     | LangChain PDF Loader               | Reads Cisco PDF documents                                  |
+|                             | Recursive Character Text Splitter  | Splits documents into smaller chunks for embedding         |
+| **Version Control**         | Git                                | Source code version control                                |
+|                             | GitHub                             | Remote repository and project hosting                      |
+| **Development Environment** | Visual Studio Code                 | Code editor and development environment                    |
+|                             | Node.js & npm                      | Frontend dependency management and build tools             |
+|                             | Python Virtual Environment (venv)  | Isolated Python package management                         |
+| **API Testing**             | FastAPI Swagger UI                 | Testing backend endpoints (`/docs`)                        |
+| **Operating System**        | Windows 11                         | Development environment                                    |
+| **Package Managers**        | pip                                | Python package management                                  |
+|                             | npm                                | JavaScript package management                              |
 
-Developed a Retrieval-Augmented Generation (RAG) chatbot using **React, FastAPI, LangChain, ChromaDB, Hugging Face Embeddings, and Ollama (Llama 3.2)** to provide accurate, context-aware solutions for Cisco networking queries. Implemented semantic search over Cisco documentation using vector embeddings, enabling grounded AI responses. Built a responsive ChatGPT-inspired interface with Markdown rendering and integrated a modular backend for document ingestion, retrieval, and LLM-based answer generation. The project demonstrates practical application of **Generative AI, Large Language Models, Vector Databases, REST APIs, and Full-Stack Development**, making it highly relevant for AI, software engineering, and product-focused roles.
+---
+
+## Architecture-Wise Tech Stack
+
+| **Layer**            | **Technology**                         |
+| -------------------- | -------------------------------------- |
+| Frontend             | React.js, Vite, HTML, CSS, JavaScript  |
+| Backend              | FastAPI, Python, Uvicorn               |
+| AI Framework         | LangChain                              |
+| Large Language Model | Llama 3.2 (Ollama)                     |
+| Embedding Model      | sentence-transformers/all-MiniLM-L6-v2 |
+| Vector Database      | ChromaDB                               |
+| Knowledge Base       | Cisco PDFs, Custom JSON Q&A            |
+| Version Control      | Git, GitHub                            |
+| IDE                  | Visual Studio Code                     |
+
+---
+
+## Skills Demonstrated Through This Project
+
+| **Domain**                           | **Technologies Used**                  |
+| ------------------------------------ | -------------------------------------- |
+| Full Stack Development               | React, FastAPI, REST APIs              |
+| Generative AI                        | LLMs, Prompt Engineering, Ollama       |
+| Retrieval-Augmented Generation (RAG) | LangChain, ChromaDB, Embeddings        |
+| Natural Language Processing          | Sentence Transformers, Semantic Search |
+| Backend Development                  | Python, FastAPI                        |
+| Frontend Development                 | React, CSS, JavaScript                 |
+| Database                             | Vector Database (ChromaDB)             |
+| API Development                      | REST APIs, JSON                        |
+| Version Control                      | Git, GitHub                            |
